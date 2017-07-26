@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int soA, soB;
+
+	cout << "Nhap vao so thu nhat: ";
+	cin >> soA;
+	cout << "Nhap vao so thu hai: ";
+	cin >> soB;
+	
+	cout << "Tong hai so: " << soA + soB << endl;
+	cout << "Hieu hai so: " << soA - soB << endl;
+	cout << "Tich hai so: " << soA * soB << endl;
+	cout << "Thuong hai so: " << (soA * 1.0) / soB << endl;
+	return 0;
+}
